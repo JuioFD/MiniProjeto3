@@ -28,6 +28,18 @@ body {
 
 }
 
+#h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#jogos {
+    font-size: 18px;
+    font-weight: 400px;
+    margin: 0 0 20px;
+    text-align: center;
+}
+
 pre:empty {
     display: none;
 }
