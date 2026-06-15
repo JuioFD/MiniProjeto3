@@ -6,27 +6,27 @@ const produtos = [
     {
         nome: "Jogo PRAGMATA - PS5",
         preco: 299.00,
-        categoria: "Ação e Aventura",
+        estilo: "Ação e Aventura",
     },
     {
         nome: "Jogo Life is Strange Reunion - PS5",
         preco: 299.00,
-        categoria: "Narrativo",
+        estilo: "Narrativo",
     },
     {
         nome: "Jogo Hades II - PS5",
         preco: 69.00,
-        categoria: "RogueLike",
+        estilo: "RogueLike",
     },
     {
         nome: "Halo: CE Remaster (pré-venda) - PS5",
         preco: 199.00,
-        categoria: "FPS",
+        estilo: "FPS",
     },
     {
         nome: "Wolverine (pré-venda) - PS5",
         preco: 399.00,
-        categoria: "Ação e Aventura ",
+        estilo: "Ação e Aventura ",
     }
 
 ]
@@ -36,7 +36,7 @@ function criarCard (produto) {
     <div class = "card">
         <h2>${produto.nome}</h2>
         <p> R$: ${produto.preco.toFixed(2)}</p>
-        <p> Categoria: ${produto.categoria}</p>
+        <p> Estilo de jogo: ${produto.estilo}</p>
     </div>
     `
 }
